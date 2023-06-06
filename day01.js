@@ -41,8 +41,8 @@ async function asyncReadFile(filename) {
 
     // The total Calories carried by the top three Elves carrying the most Calories
     console.log(sumTop(topThree)); // Answer: 211189
-  } catch (err) {
-    console.log("Hey, Advent Error!", err);
+  } catch (error) {
+    console.log("Ho ho, this is an Advent Error!", error);
   }
 }
 
